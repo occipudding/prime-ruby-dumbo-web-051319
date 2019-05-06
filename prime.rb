@@ -1,5 +1,5 @@
 def prime?(num)
-  range = 2..(num / 2)
+  r = 2..(num / 2)
   if num <= 2
     return true
   end
