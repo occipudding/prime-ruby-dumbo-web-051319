@@ -3,5 +3,8 @@ def prime?(num)
   if num <= 2
     return false
   end
-  for n in range
+  if (num % (2..(num / 2)) == 0)
+    return true
+  end
+  false
 end
